@@ -20,9 +20,22 @@
         "backgroundColor": "#ffffff"
       }
     },
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router"
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "447e3437-25a2-4b07-86db-11b6e6d011ed"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/447e3437-25a2-4b07-86db-11b6e6d011ed"
     }
   }
 }
