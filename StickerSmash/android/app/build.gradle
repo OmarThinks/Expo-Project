@@ -109,7 +109,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.stickersmash"
+    namespace 'com.justomarcoder.StickerSmash'
     defaultConfig {
         applicationId 'com.justomarcoder.StickerSmash'
         minSdkVersion rootProject.ext.minSdkVersion
