@@ -12,13 +12,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.justomarcoder.StickerSmash"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.justomarcoder.StickerSmash"
     },
     "plugins": [
       "expo-router"
@@ -36,6 +38,7 @@
     },
     "updates": {
       "url": "https://u.expo.dev/447e3437-25a2-4b07-86db-11b6e6d011ed"
-    }
+    },
+    "owner": "justomarcoder"
   }
 }
